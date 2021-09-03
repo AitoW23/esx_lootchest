@@ -10,13 +10,13 @@ Config.LootChestitems = {
     
     [2] = { 
         { itemName = 'water', howmany = 1, type = 'item'},
-		{ itemName = 'weapon_pistol_mk2', howmany = 1, ammo = 50, type = 'weapon'},
+		{ itemName = 'weapon_', howmany = 1, ammo = 50, type = 'weapon'},
 		{ howmany = 1337, type = 'money'},
     },
 
     [3] = {
         { itemName = 'water', howmany = 1, type = 'item'},
-		{ itemName = 'weapon_pistol50', howmany = 1, ammo = 50, type = 'weapon'},
+		{ itemName = 'weapon_bat', howmany = 1, ammo = 50, type = 'weapon'},
 		{ howmany = 420, type = 'money'},
     }
 }
