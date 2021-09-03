@@ -29,11 +29,11 @@ AddEventHandler('slerba_lootchest:open', function()
 	SetEntityInvincible(lootchest, true)
 	ESX.Game.MakeEntityFaceEntity(PlayerPedId(), lootchest)
     ExecuteCommand('e kneel') ----Uses DP-Emotes, you can replace it with some other animation if you want/need to
-	exports['progressBars']:startUI(12000, "Opening lootchest...")
+	exports['progressBars']:startUI(12000, "Avataan Chestiä...")
 	Citizen.Wait(4000)
 	ExecuteCommand('e mechanic') --Uses DP-Emotes, you can replace it with some other animation if you want/need to
 	Citizen.Wait(9000)
-	TriggerEvent('mythic_notify:client:SendAlert', { type = 'success', length = 7000, text = 'You successfully opened the lootchest and found something!' })
+	TriggerEvent('mythic_notify:client:SendAlert', { type = 'success', length = 7000, text = 'Sait avattua chestin ja löysit jotain!' })
 	ClearPedTasks(PlayerPedId())
 	DeleteObject(lootchest)
 	DeleteEntity(lootchest)
